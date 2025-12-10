@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "category": "web",
+    "difficulty": "easy",
+    "question": "What does HTML stand for?",
+    "options": [
+      "HyperText Markup Language",
+      "HighText Machine Language",
+      "Hyperlinking Text Markup Language",
+      "Home Tool Markup Language"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 2,
+    "category": "web",
+    "difficulty": "medium",
+    "question": "Which tag is used to include JavaScript file?",
+    "options": [
+      "<js>",
+      "<script>",
+      "<javascript>",
+      "<code>"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 3,
+    "category": "web",
+    "difficulty": "hard",
+    "question": "Which HTTP status code means 'Too Many Requests'?",
+    "options": [
+      "429",
+      "401",
+      "403",
+      "500"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 4,
+    "category": "math",
+    "difficulty": "easy",
+    "question": "What is 12 + 8?",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 5,
+    "category": "math",
+    "difficulty": "medium",
+    "question": "What is the derivative of x^2?",
+    "options": [
+      "x",
+      "2x",
+      "x^2",
+      "2"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 6,
+    "category": "math",
+    "difficulty": "hard",
+    "question": "Solve for x: 2x + 3 = 11",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 7,
+    "category": "gk",
+    "difficulty": "easy",
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Mars",
+      "Jupiter",
+      "Venus"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 8,
+    "category": "gk",
+    "difficulty": "medium",
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "options": [
+      "Charles Dickens",
+      "William Shakespeare",
+      "Leo Tolstoy",
+      "Mark Twain"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 9,
+    "category": "gk",
+    "difficulty": "hard",
+    "question": "In which year did the Berlin Wall fall?",
+    "options": [
+      "1987",
+      "1989",
+      "1991",
+      "1993"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 10,
+    "category": "web",
+    "difficulty": "easy",
+    "question": "CSS is used to:",
+    "options": [
+      "Structure content",
+      "Style web pages",
+      "Store data",
+      "Write server logic"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 11,
+    "category": "math",
+    "difficulty": "easy",
+    "question": "What is 7 * 6?",
+    "options": [
+      "42",
+      "36",
+      "48",
+      "40"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 12,
+    "category": "gk",
+    "difficulty": "easy",
+    "question": "The Great Barrier Reef is located in which country?",
+    "options": [
+      "Australia",
+      "USA",
+      "India",
+      "South Africa"
+    ],
+    "answer": 0
+  }
+]

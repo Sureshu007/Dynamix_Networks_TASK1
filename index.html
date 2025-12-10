@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QuickQuiz — Web Quiz App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="start-screen" class="card">
+      <h1>QuickQuiz</h1>
+      <p id="welcome">Welcome! Choose a category and difficulty to begin.</p>
+      <div class="controls">
+        <label>Category
+          <select id="category">
+            <option value="all">All</option>
+            <option value="web">Web Dev</option>
+            <option value="math">Math</option>
+            <option value="gk">General Knowledge</option>
+          </select>
+        </label>
+        <label>Difficulty
+          <select id="difficulty">
+            <option value="all">All</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </label>
+      </div>
+      <button id="start-btn" class="btn">Start Quiz</button>
+      <small class="hint">Questions and options are shuffled every time.</small>
+    </div>
+
+    <div id="quiz-screen" class="card hidden">
+      <div class="top">
+        <div id="progress-text">Question 1 / 10</div>
+        <div id="progress-bar"><div id="progress-fill"></div></div>
+      </div>
+      <div id="question-area">
+        <h2 id="question-title">Question text</h2>
+        <ul id="options" class="options-list"></ul>
+      </div>
+      <div class="quiz-footer">
+        <button id="next-btn" class="btn">Next</button>
+        <div id="score-preview">Score: <span id="current-score">0</span></div>
+      </div>
+    </div>
+
+    <div id="result-screen" class="card hidden">
+      <h2>Your results</h2>
+      <p id="result-summary"></p>
+      <div id="detailed-feedback"></div>
+      <div class="result-actions">
+        <button id="retry-btn" class="btn">Try Again</button>
+        <button id="new-settings-btn" class="btn ghost">Change Settings</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
